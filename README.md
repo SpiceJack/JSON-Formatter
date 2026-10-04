@@ -62,5 +62,3 @@ node json-formatter.js
   ]
 }
 ```
-
-d personal use.
