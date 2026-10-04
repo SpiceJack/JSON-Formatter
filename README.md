@@ -63,27 +63,4 @@ node json-formatter.js
 }
 ```
 
-## Error Handling
-
-The script handles the following error scenarios:
-
-| Scenario | Expected behavior |
-|---|---|
-| No file path provided | Displays an error message |
-| File does not exist or cannot be read | Displays a file-reading error |
-| File contains invalid JSON | Displays a JSON parsing error |
-| File contains valid JSON | Prints formatted JSON to the terminal |
-
-When an error occurs, the script sets the process exit code to `1`. On successful execution, the default exit code is `0`.
-
-## Technologies Used
-
-- JavaScript (ES Modules)
-- Node.js
-- `fs/promises` — asynchronous file reading
-- `JSON.parse()` — JSON parsing and validation
-- `JSON.stringify()` — JSON formatting and serialization
-
-## License
-
-This project is open source and available for learning and personal use.
+d personal use.
